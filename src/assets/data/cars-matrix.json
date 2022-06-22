@@ -1,0 +1,190 @@
+{
+  "GradationOfImpact": [
+    "Critical",
+    "Very hight",
+    "Hight",
+    "Rather hight",
+    "Rather low",
+    "Low"
+  ],
+  "GradationOfProbability": [
+    "Risk eliminated",
+    "Low",
+    "Rather low",
+    "Rather high",
+    "High",
+    "Very high",
+    "Critical",
+    "Occurred"
+  ],
+  "Cars": [
+    {
+      "Category": "Van",
+      "Title": "Car #1",
+      "Description": "Description of Car #1",
+      "Probability": 10,
+      "Impact": 41.6,
+      "ImpactHandling": "some impact handling text"
+    },
+    {
+      "Category": "Van",
+      "Title": "Car #2",
+      "Description": "Description of Car #2",
+      "Probability": 31.25,
+      "Impact": 58.3,
+      "ImpactHandling": "some impact handling text"
+    },
+    {
+      "Category": "Van",
+      "Title": "Car #3",
+      "Description": "Description of Car #3",
+      "Probability": 43.75,
+      "Impact": 25,
+      "ImpactHandling": "some impact handling text"
+    },
+    {
+      "Category": "Jeep",
+      "Title": "Car #4",
+      "Description": "Description of Car #4",
+      "Probability": 45,
+      "Impact": 75,
+      "ImpactHandling": "some impact handling text"
+    },
+    {
+      "Category": "Jeep",
+      "Title": "Car #5",
+      "Description": "Description of Car #5",
+      "Probability": 45,
+      "Impact": 75,
+      "ImpactHandling": "some impact handling text"
+    },
+    {
+      "Category": "Jeep",
+      "Title": "Car #6",
+      "Description": "Description of Car #6",
+      "Probability": 45,
+      "Impact": 75,
+      "ImpactHandling": "some impact handling text"
+    },
+    {
+      "Category": "Jeep",
+      "Title": "Car #7",
+      "Description": "Description of Car #7",
+      "Probability": 45,
+      "Impact": 75,
+      "ImpactHandling": "some impact handling text"
+    },
+    {
+      "Category": "Track",
+      "Title": "Car #8",
+      "Description": "Description of Car #8",
+      "Probability": 45,
+      "Impact": 75,
+      "ImpactHandling": "some impact handling text"
+    },
+    {
+      "Category": "Track",
+      "Title": "Car #9",
+      "Description": "Description of Car #9",
+      "Probability": 70,
+      "Impact": 70,
+      "ImpactHandling": "some impact handling text"
+    },
+    {
+      "Category": "Track",
+      "Title": "Car #10",
+      "Description": "Description of Car #10",
+      "Probability": 72,
+      "Impact": 71,
+      "ImpactHandling": "some impact handling text"
+    },
+    {
+      "Category": "Track",
+      "Title": "Car #11",
+      "Description": "Description of Car #11",
+      "Probability": 97.5,
+      "Impact": 42,
+      "ImpactHandling": "some impact handling text"
+    },
+    {
+      "Category": "Track",
+      "Title": "Car #12",
+      "Description": "Description of Car #12",
+      "Probability": 72,
+      "Impact": 71,
+      "ImpactHandling": "some impact handling text"
+    },
+    {
+      "Category": "Track",
+      "Title": "Car #13",
+      "Description": "Description of Car #13",
+      "Probability": 97.5,
+      "Impact": 42,
+      "ImpactHandling": "some impact handling text"
+    },
+    {
+      "Category": "Track",
+      "Title": "Car #14",
+      "Description": "Description of Car #14",
+      "Probability": 72,
+      "Impact": 71,
+      "ImpactHandling": "some impact handling text"
+    },
+    {
+      "Category": "Track",
+      "Title": "Car #15",
+      "Description": "Description of Car #15",
+      "Probability": 97.5,
+      "Impact": 42,
+      "ImpactHandling": "some impact handling text"
+    },
+    {
+      "Category": "Track",
+      "Title": "Car #16",
+      "Description": "Description of Car #16",
+      "Probability": 72,
+      "Impact": 71,
+      "ImpactHandling": "some impact handling text"
+    },
+    {
+      "Category": "Track",
+      "Title": "Car #17",
+      "Description": "Description of Car #17",
+      "Probability": 97.5,
+      "Impact": 42,
+      "ImpactHandling": "some impact handling text"
+    },
+    {
+      "Category": "Track",
+      "Title": "Car #18",
+      "Description": "Description of Car #18",
+      "Probability": 72,
+      "Impact": 71,
+      "ImpactHandling": "some impact handling text"
+    },
+    {
+      "Category": "Track",
+      "Title": "Car #19",
+      "Description": "Description of Car #19",
+      "Probability": 97.5,
+      "Impact": 42,
+      "ImpactHandling": "some impact handling text"
+    },
+    {
+      "Category": "Track",
+      "Title": "Car #19",
+      "Description": "Description of Car #19",
+      "Probability": 97.5,
+      "Impact": 42,
+      "ImpactHandling": "some impact handling text"
+    },
+    {
+      "Category": "Track",
+      "Title": "Car #19",
+      "Description": "Description of Car #19",
+      "Probability": 97.5,
+      "Impact": 42,
+      "ImpactHandling": "some impact handling text"
+    }
+  ]
+}

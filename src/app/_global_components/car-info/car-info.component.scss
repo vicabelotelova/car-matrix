@@ -1,0 +1,26 @@
+.car-info {
+  display: flex;
+  flex-direction: column;
+  &-title, &-description, &-impact-handling {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 15px;
+    div {
+      width: 100%;
+    }
+  }
+
+  &-head {
+    font-weight: bold;
+  }
+
+  &-specifications {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 15px;
+    &-probability {
+      margin-right: 20px;
+    }
+  }
+}

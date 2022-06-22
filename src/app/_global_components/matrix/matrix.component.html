@@ -1,0 +1,48 @@
+<div *ngIf="matrix">
+<div class="matrix" [ngStyle]="{'min-width' : GetSize(matrix.GradationOfProbability.length) }">
+  <div class="matrix-impact">
+    <div *ngFor="let i of matrix.GradationOfImpact">
+      {{ i }}
+    </div>
+  </div>
+  <div class="matrix-table" [ngStyle]="{'height' : GetSize(matrix.GradationOfImpact.length) }">
+    <div class="matrix-table-separator"></div>
+    <div class="matrix-table-row"
+         *ngFor="let i of matrix.GradationOfImpact; let row = index">
+
+      <div  *ngFor="let j of matrix.GradationOfProbability; let column = index"
+        [ngStyle]="{'background': GetCellBG(row, column)}" [class]="GetCarsInTheCell(column, row)">
+
+        <div class="matrix-table-col-wrapper" *ngFor="let car of GetCars(column, row)" (click)="OnCarClick(car)"
+         [class.col-hide]="GetCarsCount(column, row) > 5">
+          <div class="matrix-table-col-car" [title]="GetCarTooltip(car)"></div>
+        </div>
+
+        <div class="matrix-table-many-cars" (click)="ShowCars(column, row, template)" *ngIf="GetCarsCount(column, row) > 5"
+             [title]="'Number of Cars: ' + GetCarsCount(column, row)"></div>
+
+      </div>
+
+    </div>
+    <div class="matrix-table-separator" [ngStyle]="{'left' : GetSize(matrix.GradationOfProbability.length, 52) }"></div>
+  </div>
+  <div class="matrix-impact">
+    <div style="width: 100%"> </div>
+  </div>
+  <div class="matrix-probability" [ngStyle]="{'width' : GetSize(matrix.GradationOfProbability.length) }">
+    <div *ngFor="let j of matrix.GradationOfProbability">
+      {{ j }}
+    </div>
+  </div>
+</div>
+</div>
+<ng-template #template>
+  <div class="modal-header">
+    <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <app-many-cars [cars]="cars" (car)="OnCarClickFromModal($event)"></app-many-cars>
+  </div>
+</ng-template>

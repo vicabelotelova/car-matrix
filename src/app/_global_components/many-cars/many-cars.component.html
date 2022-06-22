@@ -1,0 +1,5 @@
+<div class="many-cars" *ngFor="let car of cars">
+  <div (click)="OnCarClick(car)">
+    <span>{{ car.Category }} {{ car.Title }}</span>
+  </div>
+</div>

@@ -1,0 +1,21 @@
+.wrapper {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  &-data {
+    width: 35%;
+  }
+  &-info {
+    width: 50%;
+  }
+ }
+
+@media screen and (max-width: 1700px) {
+  .wrapper {
+    flex-direction: column;
+    &-info {
+      margin-top: -13%;
+      margin-left: 5%;
+    }
+  }
+}

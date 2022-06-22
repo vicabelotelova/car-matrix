@@ -1,0 +1,27 @@
+<div class="car-info" *ngIf="car">
+  <div class="car-info-category">
+    <span class="car-info-head"> {{ car.Category }} </span>
+  </div>
+  <div class="car-info-title">
+    <div class="car-info-head">car title:</div>
+    <div>{{ car.Title }}</div>
+  </div>
+  <div class="car-info-description">
+    <div class="car-info-head">car description:</div>
+    <div>{{ car.Description }}</div>
+  </div>
+  <div class="car-info-specifications">
+    <div class="car-info-specifications-probability">
+      <app-probability [probability]="car.Probability" [probabilityValues]="properties.GradationOfProbability"></app-probability>
+    </div>
+    <div class="car-info-specifications-impact">
+      <app-impact [impact]="car.Impact" [impactValues]="properties.GradationOfImpact"></app-impact>
+    </div>
+  </div>
+  <div class="car-info-impact-handling">
+    <div class="car-info-head">Impact handling:</div>
+    <div>{{ car.ImpactHandling }}</div>
+  </div>
+</div>
+
+

@@ -1,0 +1,6 @@
+.many-cars {
+  display: flex;
+  &:hover {
+    cursor: pointer;
+  }
+}
